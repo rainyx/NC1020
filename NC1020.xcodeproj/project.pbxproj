@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BD82B11B8EBA3700D19CD2 /* gmud_arrow_btn_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BD82AF1B8EBA3700D19CD2 /* gmud_arrow_btn_normal.png */; };
+		07BD82B21B8EBA3700D19CD2 /* gmud_arrow_btn_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BD82B01B8EBA3700D19CD2 /* gmud_arrow_btn_highlighted.png */; };
+		07BD82BA1B8EC2DB00D19CD2 /* readme.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 07BD82B61B8EC2DB00D19CD2 /* readme.markdown */; };
+		07BD82BB1B8EC2DB00D19CD2 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BD82B81B8EC2DB00D19CD2 /* UIView+Toast.m */; };
+		07C66DF11BC8B78F0031DA1C /* README in Resources */ = {isa = PBXBuildFile; fileRef = 07C66DF01BC8B78F0031DA1C /* README */; };
+		07D57B7D1B85D58B00960EB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D57B7C1B85D58B00960EB4 /* Images.xcassets */; };
+		07D57B8A1B85DD1100960EB4 /* rom in Resources */ = {isa = PBXBuildFile; fileRef = 07D57B891B85DD1100960EB4 /* rom */; };
+		07F88A341B8C15A600B205DA /* WQX.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07F88A331B8C15A600B205DA /* WQX.mm */; };
+		07F88A3C1B8C4BF900B205DA /* nc1020.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07F88A3A1B8C4BF900B205DA /* nc1020.cpp */; };
+		18611C891B89ED2B00BB0AED /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 075192311B85CFBE00D38120 /* AppDelegate.mm */; };
+		18611C8B1B89ED2B00BB0AED /* WQXScreenLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18611C821B89E66800BB0AED /* WQXScreenLayout.mm */; };
+		18611C8C1B89ED2B00BB0AED /* WQXRootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07D57B821B85D77F00960EB4 /* WQXRootViewController.mm */; };
+		18611C8D1B89ED2B00BB0AED /* WQXLCDView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07D57B851B85D83900960EB4 /* WQXLCDView.mm */; };
+		18611C8E1B89ED2B00BB0AED /* WQXKeyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB4D81B88136C0020CB9B /* WQXKeyItem.m */; };
+		18611C8F1B89ED2B00BB0AED /* WQXKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB4DD1B8822B40020CB9B /* WQXKeyboardView.m */; };
+		18611C901B89ED2B00BB0AED /* WQXToolbox.mm in Sources */ = {isa = PBXBuildFile; fileRef = 184EB4E31B883BBF0020CB9B /* WQXToolbox.mm */; };
+		18611C911B89ED2B00BB0AED /* WQXKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB4E61B883CC90020CB9B /* WQXKeyButton.m */; };
+		18611C921B89ED3D00BB0AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0751922E1B85CFBE00D38120 /* main.m */; };
+		18611C981B89EE1200BB0AED /* WQXDefaultScreenLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18611C971B89EE1200BB0AED /* WQXDefaultScreenLayout.mm */; };
+		18611C9B1B89F45D00BB0AED /* WQXGMUDScreenLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18611C9A1B89F45D00BB0AED /* WQXGMUDScreenLayout.mm */; };
+		18611C9D1B89F65A00BB0AED /* WQX.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 18611C9C1B89F65A00BB0AED /* WQX.hpp */; };
+		18611CA11B89FB0200BB0AED /* WQXKeyCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18611CA01B89FB0200BB0AED /* WQXKeyCircleButton.m */; };
+		18611CA71B8A061100BB0AED /* WQXGridKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18611CA61B8A061100BB0AED /* WQXGridKeyboardView.m */; };
+		18611CAA1B8A06A100BB0AED /* WQXGMUDKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18611CA91B8A06A100BB0AED /* WQXGMUDKeyboardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		075192291B85CFBE00D38120 /* NC1020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC1020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0751922D1B85CFBE00D38120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0751922E1B85CFBE00D38120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		075192301B85CFBE00D38120 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		075192311B85CFBE00D38120 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		07BD82AF1B8EBA3700D19CD2 /* gmud_arrow_btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmud_arrow_btn_normal.png; sourceTree = "<group>"; };
+		07BD82B01B8EBA3700D19CD2 /* gmud_arrow_btn_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmud_arrow_btn_highlighted.png; sourceTree = "<group>"; };
+		07BD82B51B8EC2DB00D19CD2 /* license */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license; sourceTree = "<group>"; };
+		07BD82B61B8EC2DB00D19CD2 /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.markdown; sourceTree = "<group>"; };
+		07BD82B71B8EC2DB00D19CD2 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		07BD82B81B8EC2DB00D19CD2 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		07C66DF01BC8B78F0031DA1C /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		07D57B7C1B85D58B00960EB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07D57B811B85D77F00960EB4 /* WQXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXRootViewController.h; sourceTree = "<group>"; };
+		07D57B821B85D77F00960EB4 /* WQXRootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WQXRootViewController.mm; sourceTree = "<group>"; };
+		07D57B841B85D83900960EB4 /* WQXLCDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXLCDView.h; sourceTree = "<group>"; };
+		07D57B851B85D83900960EB4 /* WQXLCDView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WQXLCDView.mm; sourceTree = "<group>"; };
+		07D57B891B85DD1100960EB4 /* rom */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rom; sourceTree = "<group>"; };
+		07F88A331B8C15A600B205DA /* WQX.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WQX.mm; sourceTree = "<group>"; };
+		07F88A3A1B8C4BF900B205DA /* nc1020.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nc1020.cpp; sourceTree = "<group>"; };
+		07F88A3B1B8C4BF900B205DA /* nc1020.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nc1020.h; sourceTree = "<group>"; };
+		184EB4D71B88136C0020CB9B /* WQXKeyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXKeyItem.h; sourceTree = "<group>"; };
+		184EB4D81B88136C0020CB9B /* WQXKeyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQXKeyItem.m; sourceTree = "<group>"; };
+		184EB4DC1B8822B40020CB9B /* WQXKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXKeyboardView.h; sourceTree = "<group>"; };
+		184EB4DD1B8822B40020CB9B /* WQXKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQXKeyboardView.m; sourceTree = "<group>"; };
+		184EB4E21B883BBF0020CB9B /* WQXToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXToolbox.h; sourceTree = "<group>"; };
+		184EB4E31B883BBF0020CB9B /* WQXToolbox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WQXToolbox.mm; sourceTree = "<group>"; };
+		184EB4E51B883CC90020CB9B /* WQXKeyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXKeyButton.h; sourceTree = "<group>"; };
+		184EB4E61B883CC90020CB9B /* WQXKeyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQXKeyButton.m; sourceTree = "<group>"; };
+		18611C811B89E66800BB0AED /* WQXScreenLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXScreenLayout.h; sourceTree = "<group>"; };
+		18611C821B89E66800BB0AED /* WQXScreenLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WQXScreenLayout.mm; sourceTree = "<group>"; };
+		18611C961B89EE1200BB0AED /* WQXDefaultScreenLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXDefaultScreenLayout.h; sourceTree = "<group>"; };
+		18611C971B89EE1200BB0AED /* WQXDefaultScreenLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WQXDefaultScreenLayout.mm; sourceTree = "<group>"; };
+		18611C991B89F45D00BB0AED /* WQXGMUDScreenLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXGMUDScreenLayout.h; sourceTree = "<group>"; };
+		18611C9A1B89F45D00BB0AED /* WQXGMUDScreenLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WQXGMUDScreenLayout.mm; sourceTree = "<group>"; };
+		18611C9C1B89F65A00BB0AED /* WQX.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WQX.hpp; sourceTree = "<group>"; };
+		18611C9F1B89FB0200BB0AED /* WQXKeyCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXKeyCircleButton.h; sourceTree = "<group>"; };
+		18611CA01B89FB0200BB0AED /* WQXKeyCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQXKeyCircleButton.m; sourceTree = "<group>"; };
+		18611CA51B8A061100BB0AED /* WQXGridKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXGridKeyboardView.h; sourceTree = "<group>"; };
+		18611CA61B8A061100BB0AED /* WQXGridKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQXGridKeyboardView.m; sourceTree = "<group>"; };
+		18611CA81B8A06A100BB0AED /* WQXGMUDKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQXGMUDKeyboardView.h; sourceTree = "<group>"; };
+		18611CA91B8A06A100BB0AED /* WQXGMUDKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQXGMUDKeyboardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075192261B85CFBE00D38120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075192201B85CFBE00D38120 = {
+			isa = PBXGroup;
+			children = (
+				0751922B1B85CFBE00D38120 /* nc1020 */,
+				0751922A1B85CFBE00D38120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0751922A1B85CFBE00D38120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075192291B85CFBE00D38120 /* NC1020.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0751922B1B85CFBE00D38120 /* nc1020 */ = {
+			isa = PBXGroup;
+			children = (
+				07D57B7C1B85D58B00960EB4 /* Images.xcassets */,
+				07BD82B31B8EC2DB00D19CD2 /* Vendors */,
+				07F88A351B8C4B6600B205DA /* wqx */,
+				18611C801B89E61B00BB0AED /* Layout */,
+				0751922C1B85CFBE00D38120 /* Supporting Files */,
+				075192301B85CFBE00D38120 /* AppDelegate.h */,
+				075192311B85CFBE00D38120 /* AppDelegate.mm */,
+				18611C9C1B89F65A00BB0AED /* WQX.hpp */,
+				07F88A331B8C15A600B205DA /* WQX.mm */,
+				07D57B811B85D77F00960EB4 /* WQXRootViewController.h */,
+				07D57B821B85D77F00960EB4 /* WQXRootViewController.mm */,
+				07D57B841B85D83900960EB4 /* WQXLCDView.h */,
+				07D57B851B85D83900960EB4 /* WQXLCDView.mm */,
+				184EB4E21B883BBF0020CB9B /* WQXToolbox.h */,
+				184EB4E31B883BBF0020CB9B /* WQXToolbox.mm */,
+				07C66DF01BC8B78F0031DA1C /* README */,
+			);
+			path = nc1020;
+			sourceTree = "<group>";
+		};
+		0751922C1B85CFBE00D38120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07BD82AE1B8EBA3700D19CD2 /* Resources */,
+				07D57B891B85DD1100960EB4 /* rom */,
+				0751922D1B85CFBE00D38120 /* Info.plist */,
+				0751922E1B85CFBE00D38120 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07BD82AE1B8EBA3700D19CD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07BD82AF1B8EBA3700D19CD2 /* gmud_arrow_btn_normal.png */,
+				07BD82B01B8EBA3700D19CD2 /* gmud_arrow_btn_highlighted.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07BD82B31B8EC2DB00D19CD2 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				07BD82B41B8EC2DB00D19CD2 /* Toast */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		07BD82B41B8EC2DB00D19CD2 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				07BD82B51B8EC2DB00D19CD2 /* license */,
+				07BD82B61B8EC2DB00D19CD2 /* readme.markdown */,
+				07BD82B71B8EC2DB00D19CD2 /* UIView+Toast.h */,
+				07BD82B81B8EC2DB00D19CD2 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		07F88A351B8C4B6600B205DA /* wqx */ = {
+			isa = PBXGroup;
+			children = (
+				07F88A3A1B8C4BF900B205DA /* nc1020.cpp */,
+				07F88A3B1B8C4BF900B205DA /* nc1020.h */,
+			);
+			path = wqx;
+			sourceTree = "<group>";
+		};
+		18611C801B89E61B00BB0AED /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				18611C9E1B89F7B700BB0AED /* Keyboard */,
+				18611C811B89E66800BB0AED /* WQXScreenLayout.h */,
+				18611C821B89E66800BB0AED /* WQXScreenLayout.mm */,
+				18611C961B89EE1200BB0AED /* WQXDefaultScreenLayout.h */,
+				18611C971B89EE1200BB0AED /* WQXDefaultScreenLayout.mm */,
+				18611C991B89F45D00BB0AED /* WQXGMUDScreenLayout.h */,
+				18611C9A1B89F45D00BB0AED /* WQXGMUDScreenLayout.mm */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		18611C9E1B89F7B700BB0AED /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				184EB4E51B883CC90020CB9B /* WQXKeyButton.h */,
+				184EB4E61B883CC90020CB9B /* WQXKeyButton.m */,
+				184EB4D71B88136C0020CB9B /* WQXKeyItem.h */,
+				184EB4D81B88136C0020CB9B /* WQXKeyItem.m */,
+				184EB4DC1B8822B40020CB9B /* WQXKeyboardView.h */,
+				184EB4DD1B8822B40020CB9B /* WQXKeyboardView.m */,
+				18611C9F1B89FB0200BB0AED /* WQXKeyCircleButton.h */,
+				18611CA01B89FB0200BB0AED /* WQXKeyCircleButton.m */,
+				18611CA51B8A061100BB0AED /* WQXGridKeyboardView.h */,
+				18611CA61B8A061100BB0AED /* WQXGridKeyboardView.m */,
+				18611CA81B8A06A100BB0AED /* WQXGMUDKeyboardView.h */,
+				18611CA91B8A06A100BB0AED /* WQXGMUDKeyboardView.m */,
+			);
+			name = Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075192281B85CFBE00D38120 /* NC1020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075192521B85CFBE00D38120 /* Build configuration list for PBXNativeTarget "NC1020" */;
+			buildPhases = (
+				075192251B85CFBE00D38120 /* Sources */,
+				075192261B85CFBE00D38120 /* Frameworks */,
+				075192271B85CFBE00D38120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NC1020;
+			productName = nc1020;
+			productReference = 075192291B85CFBE00D38120 /* NC1020.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075192211B85CFBE00D38120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = rainyx;
+				TargetAttributes = {
+					075192281B85CFBE00D38120 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 075192241B85CFBE00D38120 /* Build configuration list for PBXProject "NC1020" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075192201B85CFBE00D38120;
+			productRefGroup = 0751922A1B85CFBE00D38120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075192281B85CFBE00D38120 /* NC1020 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075192271B85CFBE00D38120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C66DF11BC8B78F0031DA1C /* README in Resources */,
+				07D57B8A1B85DD1100960EB4 /* rom in Resources */,
+				07D57B7D1B85D58B00960EB4 /* Images.xcassets in Resources */,
+				07BD82B21B8EBA3700D19CD2 /* gmud_arrow_btn_highlighted.png in Resources */,
+				07BD82B11B8EBA3700D19CD2 /* gmud_arrow_btn_normal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075192251B85CFBE00D38120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18611C921B89ED3D00BB0AED /* main.m in Sources */,
+				07F88A3C1B8C4BF900B205DA /* nc1020.cpp in Sources */,
+				18611C891B89ED2B00BB0AED /* AppDelegate.mm in Sources */,
+				18611C9D1B89F65A00BB0AED /* WQX.hpp in Sources */,
+				18611CA11B89FB0200BB0AED /* WQXKeyCircleButton.m in Sources */,
+				18611C8B1B89ED2B00BB0AED /* WQXScreenLayout.mm in Sources */,
+				18611CA71B8A061100BB0AED /* WQXGridKeyboardView.m in Sources */,
+				18611C981B89EE1200BB0AED /* WQXDefaultScreenLayout.mm in Sources */,
+				07BD82BB1B8EC2DB00D19CD2 /* UIView+Toast.m in Sources */,
+				18611C8C1B89ED2B00BB0AED /* WQXRootViewController.mm in Sources */,
+				18611CAA1B8A06A100BB0AED /* WQXGMUDKeyboardView.m in Sources */,
+				18611C8D1B89ED2B00BB0AED /* WQXLCDView.mm in Sources */,
+				07F88A341B8C15A600B205DA /* WQX.mm in Sources */,
+				18611C9B1B89F45D00BB0AED /* WQXGMUDScreenLayout.mm in Sources */,
+				18611C8E1B89ED2B00BB0AED /* WQXKeyItem.m in Sources */,
+				07BD82BA1B8EC2DB00D19CD2 /* readme.markdown in Sources */,
+				18611C8F1B89ED2B00BB0AED /* WQXKeyboardView.m in Sources */,
+				18611C901B89ED2B00BB0AED /* WQXToolbox.mm in Sources */,
+				18611C911B89ED2B00BB0AED /* WQXKeyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		075192501B85CFBE00D38120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		075192511B85CFBE00D38120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075192531B85CFBE00D38120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMPRESS_PNG_FILES = NO;
+				INFOPLIST_FILE = nc1020/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = NC1020;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		075192541B85CFBE00D38120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMPRESS_PNG_FILES = NO;
+				INFOPLIST_FILE = nc1020/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = NC1020;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075192241B85CFBE00D38120 /* Build configuration list for PBXProject "NC1020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075192501B85CFBE00D38120 /* Debug */,
+				075192511B85CFBE00D38120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075192521B85CFBE00D38120 /* Build configuration list for PBXNativeTarget "NC1020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075192531B85CFBE00D38120 /* Debug */,
+				075192541B85CFBE00D38120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 075192211B85CFBE00D38120 /* Project object */;
+}
